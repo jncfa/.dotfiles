@@ -1,0 +1,20 @@
+# This is Git's per-user configuration file.
+[user]
+	name = jncfa
+	email = jncfa@proton.me
+[core]
+	editor = code --wait
+[color]
+  ui = true
+[alias]
+  comit = commit
+  git = !git
+  grpe = grep
+[init]
+  defaultBranch = main
+
+[includeIf "gitdir:~/work/"]
+  path = ~/.gitconfig-work
+
+
+  
